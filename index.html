@@ -1,218 +1,159 @@
-<!DOCTYPE html>
-<html lang="ja">
+<!DOCTYPE html><html lang="ja">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>web忍者の砦 - 巻物リンク集</title>
+  <meta name="description" content="web忍者が開発した便利ツールの砦。集中・記録・診断などカテゴリ別に忍法アプリが揃う！">
+  <meta name="keywords" content="忍者, Webアプリ, 時間管理, おみくじ, カープクイズ, QRコード">
+  <meta property="og:title" content="web忍者の砦 - 巻物リンク集">
+  <meta property="og:description" content="web忍者が開発した便利ツールの砦。集中・記録・診断などカテゴリ別に忍法アプリが揃う！">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://kkpwebninja.com/ogp.jpg">
+  <meta property="og:url" content="https://kkpwebninja.com/">
   <style>
     body {
-      background-color: #121212;
-      color: #eee;
+      background-color: #f6f6f6;
+      color: #222;
       font-family: "Hiragino Kaku Gothic ProN", sans-serif;
       padding: 1rem;
       margin: 0;
-    }
+    }h1 {
+  text-align: center;
+  font-size: 2.2rem;
+  color: #b22222;
+}
 
-    h1 {
-      text-align: center;
-      font-size: 2rem;
-      color: #e53935;
-    }
+p.subtitle {
+  text-align: center;
+  color: #555;
+  margin-bottom: 2rem;
+}
 
-    hr {
-      border: none;
-      border-top: 1px solid #444;
-      margin: 1.5rem 0;
-    }
+.section {
+  margin-bottom: 2rem;
+}
 
-    .big-accordion {
-      background-color: #222;
-      color: #fff;
-      cursor: pointer;
-      padding: 1rem;
-      margin: 10px 0;
-      border: none;
-      text-align: left;
-      font-size: 1.2rem;
-      border-radius: 8px;
-    }
+.section h2 {
+  font-size: 1.5rem;
+  background-color: #fff0e6;
+  padding: 0.5rem 1rem;
+  border-left: 6px solid #b22222;
+  border-radius: 4px;
+}
 
-    .big-accordion:hover,
-    .big-accordion.active {
-      background-color: #333;
-    }
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin: 0.8rem 0;
+  padding: 1rem;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.05);
+}
 
-    .accordion {
-      background-color: #1e1e1e;
-      color: #fff;
-      cursor: pointer;
-      padding: 0.8rem 1rem;
-      margin: 5px 0;
-      border: none;
-      text-align: left;
-      font-size: 1rem;
-      border-radius: 6px;
-      margin-left: 1rem;
-    }
+.card-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
 
-    .accordion:hover,
-    .accordion.active {
-      background-color: #333;
-    }
+.card-desc {
+  font-size: 0.95rem;
+  margin-bottom: 0.3rem;
+}
 
-    .big-panel,
-    .panel {
-      display: none;
-      overflow: hidden;
-      margin-left: 0.5rem;
-    }
+.card a {
+  display: inline-block;
+  color: #b22222;
+  font-weight: bold;
+  text-decoration: none;
+}
 
-    .panel {
-      background-color: #1a1a1a;
-      padding: 0 1rem 1rem;
-      margin-bottom: 10px;
-      border-radius: 0 0 6px 6px;
-    }
+footer {
+  text-align: center;
+  margin-top: 3rem;
+  color: #777;
+  font-size: 0.9rem;
+}
 
-    .panel p {
-      margin: 0.5rem 0;
-      line-height: 1.5;
-      font-size: 0.95rem;
-    }
+footer a {
+  color: #b22222;
+  font-weight: bold;
+}
 
-    a.link {
-      color: #ffcc00;
-      text-decoration: none;
-      font-weight: bold;
-      display: inline-block;
-      margin-top: 0.5rem;
-    }
-
-    .highlight-count {
-      font-size: 1.5rem;
-      font-weight: bold;
-      color: #ffcc00;
-    }
-
-    footer {
-      margin-top: 2rem;
-      text-align: center;
-      color: #888;
-      font-size: 0.9rem;
-    }
-
-    footer a {
-      color: #ffcc00;
-      text-decoration: none;
-      font-weight: bold;
-    }
   </style>
-
-  <!-- Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-2LM85GJN0L"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-2LM85GJN0L');
-  </script>
 </head>
 <body>
-  <h1>web忍者の砦 - 巻物リンク集<br>🏯改修中</h1>
-
-  <hr>
-
-  <!-- 占い・診断 -->
-  <button class="big-accordion">🧙‍♂️ 占い・診断の巻物</button>
-  <div class="big-panel">
-    <button class="accordion">🎴 忍者おみくじ</button>
-    <div class="panel">
-      <p>今日の運勢を占う巻物。ラッキーアイテムも授かるでござる！</p>
-      <a class="link" href="https://kkp-15.github.io/ninja-omikuji/" target="_blank" rel="noopener noreferrer">▶ サイトを開く</a>
+  <h1>web忍者の砦 🏯</h1>
+  <p class="subtitle">知恵と術が集うリンク砦 - 忍者開発アプリ集</p>  <div class="section">
+    <h2>二の丸（集中・音楽の術）</h2>
+    <div class="card">
+      <div class="card-title">🎶 BGMガチャ</div>
+      <div class="card-desc">運命の1曲を引き当てる集中BGM術。</div>
+      <a href="https://kkp-15.github.io/ninja-bgm-gacha/" target="_blank">🔗 開く</a>
     </div>
-
-    <button class="accordion">🎯 宝くじシミュ</button>
-    <div class="panel">
-      <p>夢と現実のギャップを暴く忍法シミュレーター！</p>
-      <a class="link" href="https://kkp-15.github.io/ninja-takarakuji-sim/" target="_blank" rel="noopener noreferrer">▶ サイトを開く</a>
+    <div class="card">
+      <div class="card-title">🕓 もくもくタイマー</div>
+      <div class="card-desc">集中時間を極める修行タイマー。</div>
+      <a href="https://kkp-15.github.io/ninja-mokumoku-time/" target="_blank">🔗 開く</a>
     </div>
-  </div>
-
-  <!-- 時間術 -->
-  <button class="big-accordion">⏱ 時間術・集中の巻物</button>
-  <div class="big-panel">
-    <button class="accordion">🎶 BGMガチャ</button>
-    <div class="panel">
-      <p>集中したいときに。運命の一曲を引き当てる巻物。</p>
-      <a class="link" href="https://kkp-15.github.io/ninja-bgm-gacha/" target="_blank" rel="noopener noreferrer">▶ サイトを開く</a>
+  </div>  <div class="section">
+    <h2>三の丸（記録・整理の術）</h2>
+    <div class="card">
+      <div class="card-title">📸 QRコード履歴帳</div>
+      <div class="card-desc">読み取ったQRコードを時系列保存。</div>
+      <a href="https://kkp-15.github.io/ninja-QR-rekisi/" target="_blank">🔗 開く</a>
     </div>
-
-    <button class="accordion">🕓 もくもくタイマー</button>
-    <div class="panel">
-      <p>集中修行のための忍者タイマー。作業と休憩を極めよ！</p>
-      <a class="link" href="https://kkp-15.github.io/ninja-mokumoku-time/" target="_blank" rel="noopener noreferrer">▶ サイトを開く</a>
+    <div class="card">
+      <div class="card-title">🖨 QRコード作成と保存</div>
+      <div class="card-desc">テキストから即座にQRコード生成。</div>
+      <a href="https://kkp-15.github.io/ninja-QR/" target="_blank">🔗 開く</a>
     </div>
-  </div>
-
-  <!-- 記録系 -->
-  <button class="big-accordion">📜 記録と夢の巻物</button>
-  <div class="big-panel">
-    <button class="accordion">✅ バケットリスト</button>
-    <div class="panel">
-      <p>忍びの夢を記す帳。目標に向かって進むでござる！</p>
-      <a class="link" href="https://kkp-15.github.io/ninja-bucketlist/" target="_blank" rel="noopener noreferrer">▶ サイトを開く</a>
+    <div class="card">
+      <div class="card-title">📖 みんなの年齢帳</div>
+      <div class="card-desc">家族や仲間の年齢を一覧表示。</div>
+      <a href="https://kkp-15.github.io/ninja-nenrei/" target="_blank">🔗 開く</a>
     </div>
-  </div>
-
-  <!-- ゲーム -->
-  <button class="big-accordion">🎮 忍術ゲームの巻物</button>
-  <div class="big-panel">
-    <button class="accordion">🟨 イエローコンプリート</button>
-    <div class="panel">
-      <p>黄色を極めし者が勝つ！集中力が試されるでござる。</p>
-      <a class="link" href="https://kkp-15.github.io/ninja-yellow-com/" target="_blank" rel="noopener noreferrer">▶ サイトを開く</a>
+  </div>  <div class="section">
+    <h2>天守閣（頭脳チャレンジ・特訓の間）</h2>
+    <div class="card">
+      <div class="card-title">⚾ カープ背番号クイズ</div>
+      <div class="card-desc">記憶力勝負！選手の番号をどれだけ言えるか？</div>
+      <a href="https://kkp-15.github.io/ninja-carp-number-Q/" target="_blank">🔗 開く</a>
     </div>
-
-    <button class="accordion">⚾ CARP NUMBER QUIZ</button>
-    <div class="panel">
-      <p>広島カープの背番号をどこまで記憶しているか挑戦じゃ！</p>
-      <a class="link" href="https://kkp-15.github.io/ninja-carp-number-Q/" target="_blank" rel="noopener noreferrer">▶ サイトを開く</a>
+    <div class="card">
+      <div class="card-title">🟨 イエローコンプリート</div>
+      <div class="card-desc">黄色を見極める反射神経チャレンジ！</div>
+      <a href="https://kkp-15.github.io/ninja-yellow-com/" target="_blank">🔗 開く</a>
     </div>
-  </div>
-
-  <hr>
-
-  <footer>
-    足跡…あなたは <span id="fakeCount" class="highlight-count"></span> 人目の訪問者 🐾<br>
-    （知らんけど）<br>
-    ※このカウンターは気まぐれです🥷<br><br>
-    📱 <a href="https://x.com/kkp_webninja" target="_blank" rel="noopener noreferrer">@kkp_webninja</a>
-  </footer>
-
-  <script>
-    // フェイク訪問者数
-    const count = 1000 + Math.floor(Math.random() * 9000);
-    document.getElementById("fakeCount").textContent = count.toString().padStart(5, '0');
-
-    // 大アコーディオン
-    const bigAcc = document.getElementsByClassName("big-accordion");
-    for (let i = 0; i < bigAcc.length; i++) {
-      bigAcc[i].addEventListener("click", function () {
-        this.classList.toggle("active");
-        const panel = this.nextElementSibling;
-        panel.style.display = panel.style.display === "block" ? "none" : "block";
-      });
-    }
-
-    // 小アコーディオン
-    const acc = document.getElementsByClassName("accordion");
-    for (let i = 0; i < acc.length; i++) {
-      acc[i].addEventListener("click", function () {
-        this.classList.toggle("active");
-        const panel = this.nextElementSibling;
-        panel.style.display = panel.style.display === "block" ? "none" : "block";
-      });
-    }
-  </script>
-</body>
+  </div>  <div class="section">
+    <h2>隠し部屋（運試し・人生の巻物）</h2>
+    <div class="card">
+      <div class="card-title">🎴 忍者おみくじ</div>
+      <div class="card-desc">今日の運勢とラッキーアイテムを拝むでござる。</div>
+      <a href="https://kkp-15.github.io/ninja-omikuji/" target="_blank">🔗 開く</a>
+    </div>
+    <div class="card">
+      <div class="card-title">🎯 宝くじ模擬装置</div>
+      <div class="card-desc">現実を知る夢の計算術。ジャンボ宝くじを模擬！</div>
+      <a href="https://kkp-15.github.io/ninja-takarakuji-sim/" target="_blank">🔗 開く</a>
+    </div>
+    <div class="card">
+      <div class="card-title">📜 生きてる間にやりたい帳</div>
+      <div class="card-desc">夢と目標を記すバケットリスト術。</div>
+      <a href="https://kkp-15.github.io/ninja-Bucket-List/" target="_blank">🔗 開く</a>
+    </div>
+    <div class="card">
+      <div class="card-title">🖋 創業計画書作成術</div>
+      <div class="card-desc">自分のビジネスを始めたい人向けの戦略書き出し術。</div>
+      <a href="https://kkp-15.github.io/ninja-sougyusyo/" target="_blank">🔗 開く</a>
+    </div>
+  </div>  <footer>
+    忍者の砦より発信中｜
+    📱 <a href="https://x.com/kkp_webninja" target="_blank">@kkp_webninja</a>
+  </footer>  <!-- Google Analytics -->  <script async src="https://www.googletagmanager.com/gtag/js?id=G-2LM85GJN0L"></script>  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-2LM85GJN0L');
+  </script></body>
 </html>
